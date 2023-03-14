@@ -4,30 +4,36 @@ function Form() {
         <div >
         
            
-        <form>
+        <form >
             
-            <div>
-    
-                    <input
+            <div className="form"> 
+            <label for="aparato">
+                Aparato </label>
+                    <input className="form_input"
                       type="text"
                       name="aparato"
                       value= ""
                       placeholder="lavadora"
                     />
-                 
-                    <input
+                 <label for="potencia">
+                Potencia (W) </label>
+                    <input className="form_input"
                       type="text"
                       name="potencia"
                       value=""
                       placeholder="1500"
                     />
-          <input
+                    <label for="horas">
+                Horas/Uso </label>
+          <input className="form_input"
                       type="text"
                       name="Horas"
                       value=""
                       placeholder="15"
                     />
-                 <input
+                    <label for="importe">
+                Importe consumido</label>
+                 <input className="form_input"
                       type="text"
                       name="importe"
                       value=""
